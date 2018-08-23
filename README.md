@@ -6,3 +6,10 @@ Docker-Compose consists of following images:
  - MariaDB 10.1
  - httpd (Apache 2.4) & PHP-FPM with PHP7.1 and all Pimcore required dependencies (LibreOffice, FFMPEG, Image Libraries, etc)
  - PHP-FPM with PHP7.0 and all Pimcore required dependencies (LibreOffice, Image Libraries, etc) (except FFMPEG)
+
+## Quickstart
+
+```
+echo domainname=example.net > .env
+docker-compose up
+```
